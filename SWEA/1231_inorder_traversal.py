@@ -1,7 +1,3 @@
-import sys
-
-sys.stdin = open("input_1231.txt", "r")
-
 # 완전이진트리 - inorder
 # 입력을 받아올 때, 0 : 노드번호, 1 : 글자, 2, 3 : 자식노드
 # root 부분은 이 문제에서 안해도 됨(주어짐) 참고만!
