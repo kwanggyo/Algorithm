@@ -15,178 +15,134 @@
 # 핀볼의 시작 위치를 가지고 있어야 한다.
 # 벽에 부딪칠때마다 카운트를 해야한다.
 # 웜홀에 들어갔을 때 반대의 웜홀 좌표를 알아야 한다. -> 미리 리스트에 튜플로 저장해둔다. 웜홀에 들어갔을 때 인덱스로 비교
-# dfs 탐색
+# -> 무한 루프..
+from collections import deque
 
-def dfs(r, c, direc):
-    pinball_r = r
-    pinball_c = c
-    cnt = 0
+def movePinball(Q, first_r, first_c):
     finish_cnt = 0
-    S = []
-    S.append((r, c, direc))
-    while S:
-        r, c, direction = S.pop()
-        if pinball_r == r and pinball_c == c:
+    cnt = 0
+    while Q:
+        r, c, direction = Q.popleft()
+        if r == first_r and c == first_c:
             finish_cnt += 1
             if finish_cnt == 2:
                 return cnt
-        if direction == 0:      # 위쪽 방향으로 감
-            if 0 > r - 1:
+        if direction == 0:  # 위쪽 방향
+            if r - 1 < 0:
                 cnt += 1
-                S.append((r, c, 2))
+                Q.append((r, c, 2))
                 continue
+            r -= 1
             while pinball_map[r][c] == 0:
-                if 0 <= r - 1:
-                    r -= 1
-                    if pinball_r == r and pinball_c == c:
-                        return cnt
-                else:
-                    cnt += 1
-                    S.append((r, c, 2))
-                    break
-            if pinball_map[r][c] == -1: # 블랙홀
+                r -= 1
+            if pinball_map[r][c] == -1:
                 return cnt
-            elif pinball_map[r][c] == 1:
+            elif pinball_map[r][c] == 1:    # 상 -> 하
+                return 2*cnt + 1
+            elif pinball_map[r][c] == 2:    # 상 -> 오
                 cnt += 1
-                S.append((r+1, c, 2))     # 상 -> 하
-            elif pinball_map[r][c] == 2:
+                Q.append((r, c+1, 1))
+            elif pinball_map[r][c] == 3:    # 상 -> 왼
                 cnt += 1
-                S.append((r, c+1, 1))     # 상 -> 오
-            elif pinball_map[r][c] == 3:
-                cnt += 1
-                S.append((r, c-1, 3))     # 상 -> 왼
-            elif pinball_map[r][c] == 4:
-                cnt += 1
-                S.append((r+1, c, 2))     # 상 -> 하
-            elif pinball_map[r][c] == 5:
-                cnt += 1
-                S.append((r+1, c, 2))     # 상 -> 하
-            elif pinball_map[r][c] >= 6:    # 웜홀을 만남
-                # 해당 웜홀의 좌표를 미리 넣어둔 웜홀 좌표와 비교하여 웜홀을 타고 이동한 좌표로 바꿔 준다.
-                if r == wormhole[pinball_map[r][c] - 6][0][0] and c == wormhole[pinball_map[r][c] - 6][0][1]:
+                Q.append((r, c-1, 3))
+            elif pinball_map[r][c] == 4:    # 상 -> 하
+                return 2 * cnt + 1
+            elif pinball_map[r][c] == 5:    # 상 -> 하
+                return 2 * cnt + 1
+            elif pinball_map[r][c] >= 6:
+                if wormhole[pinball_map[r][c] - 6][0][0] == r and wormhole[pinball_map[r][c] - 6][0][1] == c:
                     r, c = wormhole[pinball_map[r][c] - 6][1][0], wormhole[pinball_map[r][c] - 6][1][1]
                 else:
                     r, c = wormhole[pinball_map[r][c] - 6][0][0], wormhole[pinball_map[r][c] - 6][0][1]
-                S.append((r, c, 0))
+                Q.append((r, c, 0))
 
-
-        elif direction == 1:    # 오른쪽 방향으로 감
+        elif direction == 1:  # 오른쪽 방향
             if c + 1 > N:
                 cnt += 1
-                S.append((r, c, 3))
+                Q.append((r, c, 3))
                 continue
+            c += 1
             while pinball_map[r][c] == 0:
-                if c + 1 < N:
-                    c += 1
-                    if pinball_r == r and pinball_c == c:
-                        return cnt
-                else:
-                    cnt += 1
-                    S.append((r, c, 3))
-                    break
-            if pinball_map[r][c] == -1: # 블랙홀
+                c += 1
+            if pinball_map[r][c] == -1:
                 return cnt
-            elif pinball_map[r][c] == 1:
+            elif pinball_map[r][c] == 1:    # 오 -> 왼
+                return 2*cnt + 1
+            elif pinball_map[r][c] == 2:    # 오 -> 왼
+                return 2 * cnt + 1
+            elif pinball_map[r][c] == 3:    # 오 -> 하
                 cnt += 1
-                S.append((r, c-1, 3))     # 오 -> 왼
-            elif pinball_map[r][c] == 2:
+                Q.append((r+1, c, 2))
+            elif pinball_map[r][c] == 4:    # 오 -> 상
                 cnt += 1
-                S.append((r, c-1, 3))     # 오 -> 왼
-            elif pinball_map[r][c] == 3:
-                cnt += 1
-                S.append((r+1, c, 2))     # 오 -> 하
-            elif pinball_map[r][c] == 4:
-                cnt += 1
-                S.append((r-1, c, 0))     # 오 -> 상
-            elif pinball_map[r][c] == 5:
-                cnt += 1
-                S.append((r, c-1, 3))     # 오 -> 왼
-            elif pinball_map[r][c] >= 6:    # 웜홀을 만남
-                # 해당 웜홀의 좌표를 미리 넣어둔 웜홀 좌표와 비교하여 웜홀을 타고 이동한 좌표로 바꿔 준다.
-                if r == wormhole[pinball_map[r][c] - 6][0][0] and c == wormhole[pinball_map[r][c] - 6][0][1]:
+                Q.append((r-1, c, 0))
+            elif pinball_map[r][c] == 5:    # 오 -> 왼
+                return 2 * cnt + 1
+            elif pinball_map[r][c] >= 6:
+                if wormhole[pinball_map[r][c] - 6][0][0] == r and wormhole[pinball_map[r][c] - 6][0][1] == c:
                     r, c = wormhole[pinball_map[r][c] - 6][1][0], wormhole[pinball_map[r][c] - 6][1][1]
                 else:
                     r, c = wormhole[pinball_map[r][c] - 6][0][0], wormhole[pinball_map[r][c] - 6][0][1]
-                S.append((r, c, 1))
+                Q.append((r, c, 1))
 
-
-        elif direction == 2:    # 아래 방향으로 감
+        elif direction == 2:  # 아래쪽 방향
             if r + 1 > N:
                 cnt += 1
-                S.append((r, c, 0))
+                Q.append((r, c, 2))
                 continue
+            r -= 1
             while pinball_map[r][c] == 0:
-                if r + 1 < N:
-                    r += 1
-                    if pinball_r == r and pinball_c == c:
-                        return cnt
-                else:
-                    cnt += 1
-                    S.append((r, c, 0))
-                    break
-            if pinball_map[r][c] == -1: # 블랙홀
+                r += 1
+            if pinball_map[r][c] == -1:
                 return cnt
-            elif pinball_map[r][c] == 1:
+            elif pinball_map[r][c] == 1:    # 하 -> 오
                 cnt += 1
-                S.append((r, c+1, 1))     # 하 -> 오
-            elif pinball_map[r][c] == 2:
+                Q.append((r, c+1, 1))
+            elif pinball_map[r][c] == 2:    # 하 -> 상
+                return 2*cnt + 1
+            elif pinball_map[r][c] == 3:    # 하 -> 상
+                return 2 * cnt + 1
+            elif pinball_map[r][c] == 4:    # 하 -> 왼
                 cnt += 1
-                S.append((r-1, c, 0))     # 하 -> 상
-            elif pinball_map[r][c] == 3:
-                cnt += 1
-                S.append((r-1, c, 0))     # 하 -> 상
-            elif pinball_map[r][c] == 4:
-                cnt += 1
-                S.append((r, c-1, 3))     # 하 -> 왼
-            elif pinball_map[r][c] == 5:
-                cnt += 1
-                S.append((r-1, c, 0))     # 하 -> 상
-            elif pinball_map[r][c] >= 6:    # 웜홀을 만남
-                # 해당 웜홀의 좌표를 미리 넣어둔 웜홀 좌표와 비교하여 웜홀을 타고 이동한 좌표로 바꿔 준다.
-                if r == wormhole[pinball_map[r][c] - 6][0][0] and c == wormhole[pinball_map[r][c] - 6][0][1]:
+                Q.append((r, c-1, 3))
+            elif pinball_map[r][c] == 5:    # 하 -> 상
+                return 2 * cnt + 1
+            elif pinball_map[r][c] >= 6:
+                if wormhole[pinball_map[r][c] - 6][0][0] == r and wormhole[pinball_map[r][c] - 6][0][1] == c:
                     r, c = wormhole[pinball_map[r][c] - 6][1][0], wormhole[pinball_map[r][c] - 6][1][1]
                 else:
                     r, c = wormhole[pinball_map[r][c] - 6][0][0], wormhole[pinball_map[r][c] - 6][0][1]
-                S.append((r, c, 2))
+                Q.append((r, c, 2))
 
-        elif direction == 3:    # 왼쪽 방향으로 감
-            if 0 > c - 1:
+        elif direction == 0:  # 위쪽 방향
+            if c - 1 < 0:
                 cnt += 1
-                S.append((r, c, 1))
+                Q.append((r, c, 2))
                 continue
+            c -= 1
             while pinball_map[r][c] == 0:
-                if 0 <= c - 1:
-                    c -= 1
-                    if pinball_r == r and pinball_c == c:
-                        return cnt
-                else:
-                    cnt += 1
-                    S.append((r, c, 1))
-                    break
-            if pinball_map[r][c] == -1: # 블랙홀
+                r -= 1
+            if pinball_map[r][c] == -1:
                 return cnt
-            elif pinball_map[r][c] == 1:
+            elif pinball_map[r][c] == 1:    # 왼 -> 상
                 cnt += 1
-                S.append((r-1, c, 0))     # 왼 -> 상
-            elif pinball_map[r][c] == 2:
+                Q.append((r-1, c, 0))
+            elif pinball_map[r][c] == 2:    # 왼 -> 하
                 cnt += 1
-                S.append((r+1, c, 2))     # 왼 -> 하
-            elif pinball_map[r][c] == 3:
-                cnt += 1
-                S.append((r, c+1, 1))     # 왼 -> 오
-            elif pinball_map[r][c] == 4:
-                cnt += 1
-                S.append((r, c+1, 1))     # 왼 -> 오
-            elif pinball_map[r][c] == 5:
-                cnt += 1
-                S.append((r, c+1, 1))     # 왼 -> 오
-            elif pinball_map[r][c] >= 6:    # 웜홀을 만남
-                # 해당 웜홀의 좌표를 미리 넣어둔 웜홀 좌표와 비교하여 웜홀을 타고 이동한 좌표로 바꿔 준다.
-                if r == wormhole[pinball_map[r][c] - 6][0][0] and c == wormhole[pinball_map[r][c] - 6][0][1]:
+                Q.append((r+1, c, 2))
+            elif pinball_map[r][c] == 3:    # 왼 -> 오
+                return 2 * cnt + 1
+            elif pinball_map[r][c] == 4:    # 왼 -> 오
+                return 2 * cnt + 1
+            elif pinball_map[r][c] == 5:    # 왼 -> 오
+                return 2 * cnt + 1
+            elif pinball_map[r][c] >= 6:
+                if wormhole[pinball_map[r][c] - 6][0][0] == r and wormhole[pinball_map[r][c] - 6][0][1] == c:
                     r, c = wormhole[pinball_map[r][c] - 6][1][0], wormhole[pinball_map[r][c] - 6][1][1]
                 else:
                     r, c = wormhole[pinball_map[r][c] - 6][0][0], wormhole[pinball_map[r][c] - 6][0][1]
-                S.append((r, c, 3))
+                Q.append((r, c, 3))
+
 
 T = int(input())
 for tc in range(1, T + 1):
@@ -194,6 +150,8 @@ for tc in range(1, T + 1):
     pinball_map = [list(map(int, input().split())) for _ in range(N)]
     wormhole = [[] for _ in range(5)]       # 웜홀을 리스트에 저장해놓기 위해
     cnt_li = []
+    Q = deque()
+    visited = [[0] * N for _ in range(N)]
     for i in range(N):
         for j in range(N):
             if pinball_map[i][j] >= 6:
@@ -201,9 +159,13 @@ for tc in range(1, T + 1):
     for r in range(N):
         for c in range(N):
             if pinball_map[r][c] == 0:
-                cnt_li.append(dfs(r, c, 0))
-                cnt_li.append(dfs(r, c, 1))
-                cnt_li.append(dfs(r, c, 2))
-                cnt_li.append(dfs(r, c, 3))
-    print(cnt_li)
+                Q.append((r, c, 0))
+                cnt_li.append(movePinball(Q, r, c))
+                Q.append((r, c, 1))
+                cnt_li.append(movePinball(Q, r, c))
+                Q.append((r, c, 2))
+                cnt_li.append(movePinball(Q, r, c))
+                Q.append((r, c, 3))
+                cnt_li.append(movePinball(Q, r, c))
+
     print('#{} {}'.format(tc, max(cnt_li)))
