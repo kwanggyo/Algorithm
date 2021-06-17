@@ -6,6 +6,8 @@
 
 def search_flower_cost(r, flower_cnt, flower_cost):
     global min_cost
+    if flower_cost >= min_cost:
+        return
     if flower_cnt == 3:
         if min_cost > flower_cost:
             min_cost = flower_cost

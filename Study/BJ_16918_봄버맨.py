@@ -47,8 +47,7 @@ while True:
         break
     bumbbumb(bumb_li, bumb_map)
     cnt += 1
-    if cnt >= N:
-        break
+
 
 result = ''
 for i in range(R):
