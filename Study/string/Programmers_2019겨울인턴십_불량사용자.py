@@ -1,4 +1,4 @@
-def comb(N, R):
+def comb(N, R):  
     if N < R:
         return N
     else:
@@ -48,8 +48,8 @@ def solution(user_id, banned_id):
         else:
             user_dict[N] += 1
 
-    if user_dict:
-        answer = 1
+    answer = 1
+    if user_dict: 
         for key in user_dict.keys():
             answer *= comb(user_dict[key], ban_dict[key])
     return answer
