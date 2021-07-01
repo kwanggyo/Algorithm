@@ -1,6 +1,8 @@
 # 2차원 배열 [0, 0, 0, ... 0](20개) X N
 # 명령에 따라 집어 넣는다.
 # set 안에 str로 연결하여 visited를 체크
+# 52252KB, 592ms
+
 import sys
 input = sys.stdin.readline
 

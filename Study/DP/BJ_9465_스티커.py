@@ -1,14 +1,18 @@
+# DP, 찾아봄,,
+# 38760KB, 896ms
+
 T = int(input())
-# 우 하 상 좌
-dr = [0, 1, 0, -1]
-dc = [1, 0, -1, 0]
 for tc in range(T):
     N = int(input())
     sticker = []
     for _ in range(2):
         sticker.append(list(map(int, input().split())))
-    print(sticker)
-
+    sticker[0][1] += sticker[1][0]
+    sticker[1][1] += sticker[0][0]
+    for i in range(2, N):
+        sticker[0][i] += max(sticker[1][i-1], sticker[1][i-2])
+        sticker[1][i] += max(sticker[0][i-1], sticker[0][i-2])
+    print(max(sticker[0][N-1], sticker[1][N-1]))
 
 
 
