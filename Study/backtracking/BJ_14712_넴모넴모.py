@@ -1,4 +1,5 @@
 # 2^(NxM)의 개수(비트연산) - 4개씪 뭉쳐있는 곳을 빼자 !
+# https://www.acmicpc.net/problem/14712
 # 시간초과
 
 N, M = map(int, input().split())
@@ -20,20 +21,3 @@ for i in range(1 << (N*M)):
                         break
             cnt -= 1
 print(total - ans_cnt)
-
-# if (val - M - 1) in Nemo_li and (val - M) in Nemo_li and (val - 1) in Nemo_li:
-#     ans_cnt += 1
-#     print(Nemo_li)
-#     break
-# elif (val - M) in Nemo_li and (val - M + 1) in Nemo_li and (val + 1) in Nemo_li:
-#     ans_cnt += 1
-#     print(Nemo_li)
-#     break
-# elif (val + 1) in Nemo_li and (val + M) in Nemo_li and (val + M + 1) in Nemo_li:
-#     ans_cnt += 1
-#     print(Nemo_li)
-#     break
-# elif (val - 1) in Nemo_li and (val + M - 1) in Nemo_li and (val + M) in Nemo_li:
-#     ans_cnt += 1
-#     print(Nemo_li)
-#     break
