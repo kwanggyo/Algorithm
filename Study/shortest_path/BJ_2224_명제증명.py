@@ -1,11 +1,11 @@
+# https://www.acmicpc.net/problem/2224
 # 대소문자가 들어가 있는 52x52 행렬을 만든다.
 # 0 ~ 25 번 까지는 + 65, 26 ~ 51 까지는 + 71을 해서 알파벳을 구한다.
 # 29452KB, 508ms
-
+# dict[p] = dict.get(p. []) + [q]
 N = int(input())
 INF = 0xffffff
-alphabet = [[INF] * 52 for _ in range(52)]
-
+alphabet = [[INF] * 52 for _ in range(52)]   
 for _ in range(N):
     string = input()
     if ord(string[0]) < 91:

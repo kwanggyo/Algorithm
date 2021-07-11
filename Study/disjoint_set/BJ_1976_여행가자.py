@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/1976
 # 플로이드-와샬 활용 Floyd_Warshall
 # A-C-B-D로 갈 수 있으면 A-B-C-D로도 갈 수 있다.
 # 연습할 겸 거쳐서 가는 최단 거리를 구하고 길이 있으면 가능 여부 반환
