@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e062955-12d6-438a-b2b0-149a1a2c001c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JUNGOL/디버깅/116.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUNGOL/디버깅/117.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUNGOL/디버깅/118.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUNGOL/디버깅/119.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUNGOL/디버깅/526.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUNGOL/디버깅/527.py" afterDir="false" />
+    <list default="true" id="2e062955-12d6-438a-b2b0-149a1a2c001c" name="Default Changelist" comment="0718">
+      <change afterPath="$PROJECT_DIR$/Study/shortest_path/BJ_1753_최단경로.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,36 +15,38 @@
     <session id="-480241234">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="89" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="5" />
-          <entry key="project.open.time.4" value="6" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.open.time.3" value="24" />
+          <entry key="project.open.time.4" value="45" />
+          <entry key="project.open.time.5" value="12" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="52" />
+          <entry key="py" value="173" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="52" />
+          <entry key="Python" value="173" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="14" />
-          <entry key="py" value="16499" />
-          <entry key="txt" value="18" />
+          <entry key="dummy" value="60" />
+          <entry key="py" value="48945" />
+          <entry key="txt" value="121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="32" />
-          <entry key="Python" value="16499" />
+          <entry key="PLAIN_TEXT" value="181" />
+          <entry key="Python" value="48945" />
         </counts>
       </usages-collector>
     </session>
@@ -57,91 +54,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Study/SWEA_5650_핀볼게임.py">
+        <entry file="file://$PROJECT_DIR$/Study/BJ_21317_징검다리건너기.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="160">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Study/brute_force/BJ_16198_에너지 모으기.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/문제만들기.py">
+        <entry file="file://$PROJECT_DIR$/Study/shortest_path/BJ_1753_최단경로.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="640">
+              <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+              <folding>
+                <element signature="e#69#79#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bb.py">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="282">
+              <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Study/SWEA_1953_탈주범검거.py">
+        <entry file="file://$PROJECT_DIR$/ddd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="16">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JUNGOL/디버깅/526.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JUNGOL/디버깅/527.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JUNGOL/디버깅/116.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JUNGOL/디버깅/117.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JUNGOL/디버깅/118.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JUNGOL/디버깅/119.py">
+        <entry file="file://$PROJECT_DIR$/prac.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Study/shortest_path/BJ_2224_명제증명.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-96">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Study/shortest_path/BJ_11265_끝나지 안는 파티.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Study/shortest_path/BJ_11403_경로찾기.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Study/shortest_path/11403_시간초과.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -158,6 +158,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cnt</find>
+      <find>print</find>
+      <find>#</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,48 +168,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SWEA_5656_벽돌깨기.py" />
-        <option value="$PROJECT_DIR$/BJ_17144_미세먼지안녕.py" />
-        <option value="$PROJECT_DIR$/Study/SWEA_5656_벽돌깨기.py" />
-        <option value="$PROJECT_DIR$/tmp.py" />
-        <option value="$PROJECT_DIR$/Study/BJ_15686_치킨배달.py" />
-        <option value="$PROJECT_DIR$/Study/SWEA_10966_물놀이를가자.py" />
-        <option value="$PROJECT_DIR$/문제만들기.py" />
-        <option value="$PROJECT_DIR$/algorithm_class_test_problem.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/501.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/518.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/519.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/520.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/522.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/523.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/524.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/525.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/111.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/112.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/103.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/104.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/113.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/114.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/연산자/115.py" />
-        <option value="$PROJECT_DIR$/SWEA/4317_칩생산.py" />
+        <option value="$PROJECT_DIR$/Study/BJ_11053_가장긴증가하는부분수열.py" />
+        <option value="$PROJECT_DIR$/Study/BJ_21608_상어초등학교.py" />
+        <option value="$PROJECT_DIR$/Study/BJ_16918_봄버맨.py" />
+        <option value="$PROJECT_DIR$/Study/BJ_14620_꽃길.py" />
+        <option value="$PROJECT_DIR$/Study/BJ_10971_외판원순회2.py" />
         <option value="$PROJECT_DIR$/aa.py" />
-        <option value="$PROJECT_DIR$/bb.py" />
-        <option value="$PROJECT_DIR$/Study/SWEA_5650_핀볼게임.py" />
-        <option value="$PROJECT_DIR$/Study/SWEA_1953_탈주범검거.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/디버깅/526.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/디버깅/116.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/디버깅/117.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/디버깅/527.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/디버깅/119.py" />
-        <option value="$PROJECT_DIR$/JUNGOL/디버깅/118.py" />
+        <option value="$PROJECT_DIR$/Study/BJ_21314_민겸수.py" />
+        <option value="$PROJECT_DIR$/Study/BJ_1717_집합의표현.py" />
+        <option value="$PROJECT_DIR$/Study/BJ_11403_경로찾기.py" />
+        <option value="$PROJECT_DIR$/Study/shortest_path/시간초과.py" />
+        <option value="$PROJECT_DIR$/Study/shortest_path/11403_시간초과.py" />
+        <option value="$PROJECT_DIR$/Study/shortest_path/BJ_11403_경로찾기.py" />
+        <option value="$PROJECT_DIR$/Study/disjoint_set/1717_메모리초과.py" />
+        <option value="$PROJECT_DIR$/Study/disjoint_set/1717_형식코드.py" />
+        <option value="$PROJECT_DIR$/Study/disjoint_set/BJ_1717_집합의표현.py" />
+        <option value="$PROJECT_DIR$/Study/two_pointer/20922_시간초과.py" />
+        <option value="$PROJECT_DIR$/Study/two_pointer/BJ_20922_겹치는건싫어.py" />
+        <option value="$PROJECT_DIR$/Study/string/Programmers_2019겨울인턴십_불량사용자.py" />
+        <option value="$PROJECT_DIR$/Study/string/불량사용자_tc3_틀림.py" />
+        <option value="$PROJECT_DIR$/question.py" />
+        <option value="$PROJECT_DIR$/Study/DP/BJ_9465_스티커.py" />
+        <option value="$PROJECT_DIR$/Study/구현/BJ_15787_기차가 어둠을 헤치고 은하수를.py" />
+        <option value="$PROJECT_DIR$/Study/brute_force/BJ_2961_도영이가 만든 맛있는 음식.py" />
+        <option value="$PROJECT_DIR$/Study/backtracking/BJ_5547_일루미네이션.py" />
+        <option value="$PROJECT_DIR$/Study/backtracking/넴모넴모.py" />
+        <option value="$PROJECT_DIR$/Study/greedy/강의실배정.py" />
+        <option value="$PROJECT_DIR$/Study/greedy/BJ_11000_강의실배정.py" />
+        <option value="$PROJECT_DIR$/Study/backtracking/BJ_14712_넴모넴모.py" />
+        <option value="$PROJECT_DIR$/Study/disjoint_set/BJ_0711_여행가자.py" />
+        <option value="$PROJECT_DIR$/tmp.py" />
+        <option value="$PROJECT_DIR$/Study/disjoint_set/BJ_1976_여행가자.py" />
+        <option value="$PROJECT_DIR$/Study/shortest_path/BJ_2224_명제증명.py" />
+        <option value="$PROJECT_DIR$/Study/string/Programmers_21카카오채용연계_숫자문자열과영단어.py" />
+        <option value="$PROJECT_DIR$/Study/two_pointer/BJ_2470_두용액.py" />
+        <option value="$PROJECT_DIR$/Study/DP/BJ_가장_큰_ 증가부분수열.py" />
+        <option value="$PROJECT_DIR$/Study/구현/BJ_17276_배열돌리기.py" />
+        <option value="$PROJECT_DIR$/Study/DP/BJ_11055_가장_큰_ 증가부분수열.py" />
+        <option value="$PROJECT_DIR$/Study/greedy/BJ_13164_행복 유치원.py" />
+        <option value="$PROJECT_DIR$/Study/graph/BJ_15661_링크와 스타트.py" />
+        <option value="$PROJECT_DIR$/Study/backtracking/백준18430_무기공학.py" />
+        <option value="$PROJECT_DIR$/ddd.py" />
+        <option value="$PROJECT_DIR$/Study/shortest_path/BJ_11265_끝나지 안는 파티.py" />
+        <option value="$PROJECT_DIR$/Study/graph/BJ_17829_222-풀링.py" />
+        <option value="$PROJECT_DIR$/Study/disjoint_set/BJ_17352_여러분의 다리가 되어 드리겠습니다!.py" />
+        <option value="$PROJECT_DIR$/Study/순열조합/N과M(9).py" />
+        <option value="$PROJECT_DIR$/Study/순열조합/BJ_15663_N과M(9).py" />
+        <option value="$PROJECT_DIR$/Study/string/Programmers_2019_Blind_Recruitment_오픈채팅방.py" />
+        <option value="$PROJECT_DIR$/Study/BJ_21317_징검다리 건너기.py" />
+        <option value="$PROJECT_DIR$/Study/BJ_21317_징검다리건너기.py" />
+        <option value="$PROJECT_DIR$/Study/brute_force/BJ_16198_에너지 모으기.py" />
+        <option value="$PROJECT_DIR$/Study/shortest_path/BJ_1753_최단경로.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2" />
+    <option name="y" value="138" />
+    <option name="width" value="1937" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -225,18 +244,19 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="JUNGOL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="JUNGOL" type="462c0819:PsiDirectoryNode" />
-              <item name="디버깅" type="462c0819:PsiDirectoryNode" />
+              <item name="Study" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="Study" type="462c0819:PsiDirectoryNode" />
+              <item name="shortest_path" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Study" type="462c0819:PsiDirectoryNode" />
+              <item name="순열조합" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,12 +265,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Review/algorithm_review/CLASS2@" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\LEEKWANGGYO\Desktop\GitHub\Algorithm\JUNGOL\출력" />
+      <recent name="C:\Users\LEEKWANGGYO\Desktop\GitHub\Algorithm\Study\backtracking" />
+      <recent name="C:\Users\LEEKWANGGYO\Desktop\GitHub\Algorithm\Study\graph" />
+      <recent name="C:\Users\LEEKWANGGYO\Desktop\GitHub\Algorithm\Study\DP" />
+      <recent name="C:\Users\LEEKWANGGYO\Desktop\GitHub\Algorithm\Study\shortest_path" />
+      <recent name="C:\Users\LEEKWANGGYO\Desktop\GitHub\Algorithm\Study\Backtracking" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,8 +289,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.119">
-    <configuration name="116" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.BJ_1753_최단경로">
+    <configuration name="BJ_15663_N과M(9)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,11 +298,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JUNGOL/디버깅" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/순열조합" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JUNGOL/디버깅/116.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/순열조합/BJ_15663_N과M(9).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,7 +311,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="117" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="BJ_16198_에너지 모으기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,11 +319,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JUNGOL/디버깅" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/brute_force" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JUNGOL/디버깅/117.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/brute_force/BJ_16198_에너지 모으기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,7 +332,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="118" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="BJ_1753_최단경로" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,11 +340,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JUNGOL/디버깅" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/shortest_path" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JUNGOL/디버깅/118.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/shortest_path/BJ_1753_최단경로.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,7 +353,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="119" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="BJ_21317_징검다리건너기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,11 +361,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JUNGOL/디버깅" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JUNGOL/디버깅/119.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/BJ_21317_징검다리건너기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -350,7 +374,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="527" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Programmers_2019_Blind_Recruitment_오픈채팅방" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -358,11 +382,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JUNGOL/디버깅" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/string" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JUNGOL/디버깅/527.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/string/Programmers_2019_Blind_Recruitment_오픈채팅방.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -372,19 +396,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.527" />
-      <item itemvalue="Python.116" />
-      <item itemvalue="Python.117" />
-      <item itemvalue="Python.118" />
-      <item itemvalue="Python.119" />
+      <item itemvalue="Python.BJ_15663_N과M(9)" />
+      <item itemvalue="Python.Programmers_2019_Blind_Recruitment_오픈채팅방" />
+      <item itemvalue="Python.BJ_21317_징검다리건너기" />
+      <item itemvalue="Python.BJ_16198_에너지 모으기" />
+      <item itemvalue="Python.BJ_1753_최단경로" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.119" />
-        <item itemvalue="Python.118" />
-        <item itemvalue="Python.117" />
-        <item itemvalue="Python.116" />
-        <item itemvalue="Python.527" />
+        <item itemvalue="Python.BJ_1753_최단경로" />
+        <item itemvalue="Python.BJ_16198_에너지 모으기" />
+        <item itemvalue="Python.BJ_21317_징검다리건너기" />
+        <item itemvalue="Python.Programmers_2019_Blind_Recruitment_오픈채팅방" />
+        <item itemvalue="Python.BJ_15663_N과M(9)" />
       </list>
     </recent_temporary>
   </component>
@@ -398,20 +422,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621074727400</updated>
-    </task>
-    <task id="LOCAL-00001" summary="0516">
-      <created>1621170507514</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1621170507515</updated>
-    </task>
-    <task id="LOCAL-00002" summary="0516">
-      <created>1621170860223</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1621170860223</updated>
     </task>
     <task id="LOCAL-00003" summary="0519">
       <created>1621419951126</created>
@@ -483,277 +493,770 @@
       <option name="project" value="LOCAL" />
       <updated>1623171751116</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="0613">
+      <created>1623587875374</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1623587875374</updated>
+    </task>
+    <task id="LOCAL-00014" summary="0615">
+      <created>1623768601928</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1623768601928</updated>
+    </task>
+    <task id="LOCAL-00015" summary="0616">
+      <created>1623853548496</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1623853548497</updated>
+    </task>
+    <task id="LOCAL-00016" summary="0617">
+      <created>1623869394515</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1623869394515</updated>
+    </task>
+    <task id="LOCAL-00017" summary="0617">
+      <created>1623894312420</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1623894312420</updated>
+    </task>
+    <task id="LOCAL-00018" summary="0617">
+      <created>1623943939970</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1623943939970</updated>
+    </task>
+    <task id="LOCAL-00019" summary="0620">
+      <created>1624271089513</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1624271089513</updated>
+    </task>
+    <task id="LOCAL-00020" summary="정리">
+      <created>1624367244991</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1624367244991</updated>
+    </task>
+    <task id="LOCAL-00021" summary="06.23">
+      <created>1624454854822</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1624454854822</updated>
+    </task>
+    <task id="LOCAL-00022" summary="0624">
+      <created>1624539162480</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1624539162480</updated>
+    </task>
+    <task id="LOCAL-00023" summary="0625">
+      <created>1624611784353</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1624611784353</updated>
+    </task>
+    <task id="LOCAL-00024" summary="0628">
+      <created>1624880895458</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1624880895458</updated>
+    </task>
+    <task id="LOCAL-00025" summary="0630">
+      <created>1625061499463</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1625061499463</updated>
+    </task>
+    <task id="LOCAL-00026" summary="0701">
+      <created>1625070034421</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1625070034421</updated>
+    </task>
+    <task id="LOCAL-00027" summary="0701">
+      <created>1625071208642</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1625071208642</updated>
+    </task>
+    <task id="LOCAL-00028" summary="0701">
+      <created>1625130575276</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1625130575276</updated>
+    </task>
+    <task id="LOCAL-00029" summary="0702">
+      <created>1625209368143</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1625209368143</updated>
+    </task>
+    <task id="LOCAL-00030" summary="0702">
+      <created>1625246205418</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1625246205418</updated>
+    </task>
+    <task id="LOCAL-00031" summary="0705">
+      <created>1625489002974</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1625489002974</updated>
+    </task>
+    <task id="LOCAL-00032" summary="0706">
+      <created>1625571935503</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1625571935503</updated>
+    </task>
+    <task id="LOCAL-00033" summary="0707">
+      <created>1625653409992</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1625653409992</updated>
+    </task>
+    <task id="LOCAL-00034" summary="0708">
+      <created>1625746584029</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1625746584029</updated>
+    </task>
+    <task id="LOCAL-00035" summary="0710">
+      <created>1625907486335</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1625907486336</updated>
+    </task>
+    <task id="LOCAL-00036" summary="0711">
+      <created>1625930194987</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1625930194987</updated>
+    </task>
+    <task id="LOCAL-00037" summary="0711">
+      <created>1626005041038</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1626005041038</updated>
+    </task>
+    <task id="LOCAL-00038" summary="0715">
+      <created>1626347567244</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1626347567244</updated>
+    </task>
+    <task id="LOCAL-00039" summary="0716">
+      <created>1626426898631</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1626426898631</updated>
+    </task>
+    <task id="LOCAL-00040" summary="0718">
+      <created>1626547526921</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1626547526921</updated>
+    </task>
+    <task id="LOCAL-00041" summary="0718">
+      <created>1626616793875</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1626616793875</updated>
+    </task>
+    <task id="LOCAL-00042" summary="0722">
+      <created>1626956164821</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1626956164821</updated>
+    </task>
+    <task id="LOCAL-00043" summary="0725">
+      <created>1627216072495</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1627216072495</updated>
+    </task>
+    <task id="LOCAL-00044" summary="0801">
+      <created>1628154354297</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1628154354297</updated>
+    </task>
+    <task id="LOCAL-00045" summary="0805">
+      <created>1628154377969</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1628154377969</updated>
+    </task>
+    <task id="LOCAL-00046" summary="0808">
+      <created>1628481902338</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1628481902338</updated>
+    </task>
+    <task id="LOCAL-00047" summary="0812">
+      <created>1628760126264</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1628760126264</updated>
+    </task>
+    <task id="LOCAL-00048" summary="08.16">
+      <created>1629108748909</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1629108748909</updated>
+    </task>
+    <task id="LOCAL-00049" summary="0826">
+      <created>1629978880914</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1629978880914</updated>
+    </task>
+    <task id="LOCAL-00050" summary="0830">
+      <created>1630315538169</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1630315538170</updated>
+    </task>
+    <task id="LOCAL-00051" summary="0902">
+      <created>1630574295971</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1630574295971</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14228188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2080537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30070922" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44113475" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986577" weight="0.3460993" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3035461" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.27801418" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19865772" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986577" weight="0.2751773" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49078014" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.27801418" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="0516" />
-    <MESSAGE value="0519" />
-    <MESSAGE value="0520" />
-    <MESSAGE value="0521" />
-    <MESSAGE value="0524" />
-    <MESSAGE value="0525" />
-    <MESSAGE value="0526" />
-    <MESSAGE value="0527" />
-    <MESSAGE value="0608" />
-    <MESSAGE value="0609" />
-    <option name="LAST_COMMIT_MESSAGE" value="0609" />
+    <MESSAGE value="0624" />
+    <MESSAGE value="0625" />
+    <MESSAGE value="0628" />
+    <MESSAGE value="0630" />
+    <MESSAGE value="0701" />
+    <MESSAGE value="0702" />
+    <MESSAGE value="0705" />
+    <MESSAGE value="0706" />
+    <MESSAGE value="0707" />
+    <MESSAGE value="0708" />
+    <MESSAGE value="0710" />
+    <MESSAGE value="0711" />
+    <MESSAGE value="0715" />
+    <MESSAGE value="0716" />
+    <MESSAGE value="0718" />
+    <MESSAGE value="0722" />
+    <MESSAGE value="0725" />
+    <MESSAGE value="0801" />
+    <MESSAGE value="0805" />
+    <MESSAGE value="0808" />
+    <MESSAGE value="0812" />
+    <MESSAGE value="08.16" />
+    <MESSAGE value="0826" />
+    <MESSAGE value="0830" />
+    <MESSAGE value="0902" />
+    <option name="LAST_COMMIT_MESSAGE" value="0902" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Study/greedy/BJ_11000_강의실배정.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Study/two_pointer/BJ_2470_두용액.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Study/DP/BJ_11055_가장_큰_ 증가부분수열.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="i" />
+        <watch expression="j" language="Python" />
+        <watch expression="path" language="Python" />
+        <watch expression="vistied" language="Python" />
+        <watch expression="ans" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>j</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ans</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>vistied</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>path</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>5</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SWEA_5656_벽돌깨기.py" />
-    <entry file="file://$PROJECT_DIR$/BJ_17144_미세먼지안녕.py" />
-    <entry file="file://$PROJECT_DIR$/Study/BJ_15686_치킨배달.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/SWEA_10966_물놀이를가자.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/question.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/501.py" />
-    <entry file="file://$PROJECT_DIR$/JUNGOL/연산자/518.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/연산자/519.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/연산자/521.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/연산자/522.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/연산자/523.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/연산자/524.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/연산자/525.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="324" selection-start-line="324" selection-end-line="324" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/연산자/111.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/연산자/112.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/출력/103.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/출력/104.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/연산자/113.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/연산자/115.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/SWEA_5656_벽돌깨기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/SWEA_4008_숫자만들기.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_class_test_problem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="976">
-          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SWEA/4317_칩생산.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aa.py">
+    <entry file="file://$PROJECT_DIR$/Study/string/Programmers_2019겨울인턴십_불량사용자.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/BJ_16918_봄버맨.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/BJ_17144_미세먼지안녕.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/string/불량사용자_tc3_틀림.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/disjoint_set/1717_메모리초과.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/disjoint_set/1717_형식코드.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/brute_force/BJ_2961_도영이가 만든 맛있는 음식.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="368">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/SWEA_5650_핀볼게임.py">
+    <entry file="file://$PROJECT_DIR$/algorithm_class_test_problem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="672">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/SWEA_1953_탈주범검거.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/디버깅/116.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/디버깅/117.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/디버깅/526.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/디버깅/527.py">
+    <entry file="file://$PROJECT_DIR$/tmp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="33" />
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/디버깅/119.py">
+    <entry file="file://$PROJECT_DIR$/Study/two_pointer/BJ_2470_두용액.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <marker date="1626344827227" expanded="true" signature="943:1080" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/two_pointer/BJ_20922_겹치는건싫어.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JUNGOL/디버깅/118.py">
+    <entry file="file://$PROJECT_DIR$/Study/string/Programmers_21카카오채용연계_숫자문자열과영단어.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="336">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/구현/BJ_17276_배열돌리기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/치킨배달_킹갓성환님.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/문제만들기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="160">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/구현/BJ_15787_기차가 어둠을 헤치고 은하수를.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/DP/BJ_11053_가장긴증가하는부분수열.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/DP/BJ_11055_가장_큰_ 증가부분수열.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/brute_force/BJ_14620_꽃길.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/DP/BJ_9465_스티커.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/backtracking/BJ_14888_연산자끼워넣기.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/backtracking/BJ_14712_넴모넴모.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/backtracking/BJ_10971_외판원순회2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/backtracking/백준18430_무기공학.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/disjoint_set/BJ_1976_여행가자.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/graph/BJ_15661_링크와 스타트.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/graph/BJ_5547_일루미네이션.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/graph/BJ_17829_222-풀링.py" />
+    <entry file="file://$PROJECT_DIR$/Study/greedy/BJ_21314_민겸수.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="992">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/greedy/BJ_13164_행복 유치원.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/greedy/BJ_11000_강의실배정.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/disjoint_set/BJ_17352_여러분의 다리가 되어 드리겠습니다!.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/순열조합/BJ_15663_N과M(9).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding>
+            <marker date="1629108740028" expanded="true" signature="111:116" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4928">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/disjoint_set/BJ_1717_집합의표현.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/brute_force/BJ_16198_에너지 모으기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/string/Programmers_2019_Blind_Recruitment_오픈채팅방.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/BJ_21317_징검다리건너기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/shortest_path/11403_시간초과.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/shortest_path/BJ_2224_명제증명.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/shortest_path/BJ_11265_끝나지 안는 파티.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/shortest_path/BJ_11403_경로찾기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/shortest_path/BJ_1753_최단경로.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding>
+            <element signature="e#69#79#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
