@@ -28,7 +28,7 @@ def dijkstra(start, end):
         for v, w in G[u]:
             if not visited[v] and distance[v] > distance[u] + w:
                 distance[v] = distance[u] + w
-                P[v] = u
+                P[v] = u # 필요없음
                 heappush(Q, (distance[v], v))
 
     return distance[end]
