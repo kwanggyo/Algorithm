@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e062955-12d6-438a-b2b0-149a1a2c001c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/BJ_15686_치킨배달.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/BJ_16918_봄버맨.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/구현/BJ_16918_봄버맨.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/BJ_21608_상어초등학교.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/구현/BJ_21608_상어초등학교.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,24 +27,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="175" />
+          <entry key="py" value="176" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="175" />
+          <entry key="Python" value="176" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="60" />
           <entry key="py" value="48945" />
-          <entry key="txt" value="125" />
+          <entry key="txt" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="185" />
+          <entry key="PLAIN_TEXT" value="195" />
           <entry key="Python" value="48945" />
         </counts>
       </usages-collector>
@@ -55,6 +52,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Study/BJ_21317_징검다리건너기.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Study/shortest_path/BJ_1753_최단경로.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,18 +78,9 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Study/BJ_17144_미세먼지안녕.py">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26608">
-              <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -403,13 +400,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621074727400</updated>
-    </task>
-    <task id="LOCAL-00004" summary="0520">
-      <created>1621443239466</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1621443239466</updated>
     </task>
     <task id="LOCAL-00005" summary="0520">
       <created>1621508223738</created>
@@ -747,11 +737,19 @@
       <option name="project" value="LOCAL" />
       <updated>1630924468681</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="파일 정리">
+      <created>1634091534698</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1634091534699</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22550336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -799,7 +797,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="0625" />
     <MESSAGE value="0628" />
     <MESSAGE value="0630" />
     <MESSAGE value="0701" />
@@ -824,7 +821,8 @@
     <MESSAGE value="0830" />
     <MESSAGE value="0902" />
     <MESSAGE value="0906" />
-    <option name="LAST_COMMIT_MESSAGE" value="0906" />
+    <MESSAGE value="파일 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="파일 정리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1154,13 +1152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/BJ_21317_징검다리건너기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Study/brute_force/BJ_16198_에너지 모으기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1232,6 +1223,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/BJ_17144_미세먼지안녕.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/BJ_21317_징검다리건너기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
