@@ -24,13 +24,13 @@ for i in range(N):
 ans = -1
 while Q and not flag:
     r, c, life, umbrella, time = Q.popleft()
-    visited[r][c] = 1
+    visited[r][c] = H
     if life == 0:
         continue
     for k in range(4):
         nr = r + dr[k]
         nc = c + dc[k]
-        if 0 <= nr < N and 0 <= nc < N and visited[nr][nc] == 0:
+        if 0 <= nr < N and 0 <= nc < N:
             cnt = time + 1
             current_umbrella = umbrella
             current_life = life
@@ -44,6 +44,12 @@ while Q and not flag:
                 current_life -= 1
             else:
                 current_umbrella -= 1
-            Q.append((nr, nc, current_life, current_umbrella, cnt))
+            
+            if current_life == 0:
+                continue
+
+            if visited[nr][nc] < current_life:
+                visited[nr][nc] = current_life
+                Q.append((nr, nc, current_life, current_umbrella, cnt))
 
 print(ans)
