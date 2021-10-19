@@ -3,28 +3,40 @@
 # 2. 첫번째 인덱스 값으로 목표 N을 나눈 후 몫부터 1씩 내려오며 가능한 조합을 구한다.
 # 3. 그 조합의 비용을 구하여 비교한다.
 
+number, cities_num = map(int,input().split())  # (<12, 2)
 
-import sys
-input = sys.stdin.readline
-C, N = map(int, input().split())
-hotel = []
-INF = 0xfffff
-dp = [INF] * (C*100 + 1)
-dp[0] = 0
+cities= list()
+for i in range(cities_num):
+    cities.append(list(map(int, input().split())))
 
-for i in range(N):
-    c, n = map(int, input().split())
-    print(c, n)
-    for j in range(C*100):
-        if dp[j] == INF: continue
-        for k in range(1, C*100):
-            if j+k*n > C*100 + 1: break
-            dp[j+k*n] = min(dp[j+k*n], dp[j]+k*c)
+min_li = [0]+[100000000]*(number+101)
 
-print(len(dp))
-print(dp)
+for city in cities:
+    cost, guest = city # (2,5) (1,1)
+    for new_guest in range(guest,number+101):
+        min_li[new_guest] = min(min_li[new_guest], min_li[new_guest - guest] + cost)
+print(min(min_li[number:number + 101]))
 
 
+# import sys
+# input = sys.stdin.readline
+# C, N = map(int, input().split())
+# hotel = []
+# INF = 0xfffff
+# dp = [INF] * (C*100 + 1)
+# dp[0] = 0
+#
+# for i in range(N):
+#     c, n = map(int, input().split())
+#     print(c, n)
+#     for j in range(C*100):
+#         if dp[j] == INF: continue
+#         for k in range(1, C*100):
+#             if j+k*n > C*100 + 1: break
+#             dp[j+k*n] = min(dp[j+k*n], dp[j]+k*c)
+#
+# print(len(dp))
+# print(dp)
 
 # import sys
 # input = sys.stdin.readline
