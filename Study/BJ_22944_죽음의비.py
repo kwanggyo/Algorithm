@@ -25,8 +25,7 @@ ans = -1
 while Q and not flag:
     r, c, life, umbrella, time = Q.popleft()
     visited[r][c] = H
-    if life == 0:
-        continue
+
     for k in range(4):
         nr = r + dr[k]
         nc = c + dc[k]
