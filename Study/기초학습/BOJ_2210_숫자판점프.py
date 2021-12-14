@@ -1,5 +1,6 @@
 # https://www.acmicpc.net/problem/2210
 # DFS
+# 30224KB, 76ms
 
 def dfs(r, c, num, cnt):
     global ans
