@@ -1,13 +1,23 @@
-# https://www.acmicpc.net/problem/15657
-# 30864KB, 76ms
+# https://www.acmicpc.net/problem/15656
 # 중복 조합
+# 30864KB, 1604ms
+# 137648KB, 280ms
 
-from itertools import combinations_with_replacement
+# from itertools import product
+# import sys
+# input = sys.stdin.readline
+#
+# N, M = map(int, input().split())
+# arr = list(map(int, input().split()))
+# arr.sort()
+# for i in product(arr, repeat=M):
+#     print(' '.join(map(str, i)))
+
+from itertools import product
 import sys
 input = sys.stdin.readline
 
 N, M = map(int, input().split())
 arr = list(map(int, input().split()))
 arr.sort()
-for i in combinations_with_replacement(arr, M):
-    print(' '.join(map(str, i)))
+print("\n".join(map(' '.join, product(map(str, arr), repeat=M))))
