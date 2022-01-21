@@ -1,5 +1,6 @@
 # https://www.notion.so/01-17-01-23-b265e4483d834ee79835782037b46319
 # DIJKSTRA
+# 32932KB, 100ms
 # 2665 미로만들기와 같은 문제
 
 from heapq import heappush, heappop
