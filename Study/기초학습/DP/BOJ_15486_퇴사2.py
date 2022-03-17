@@ -1,5 +1,6 @@
 # https://www.acmicpc.net/problem/15486
 # DP
+# 167448KB, 3368ms
 
 import sys
 input = sys.stdin.readline
